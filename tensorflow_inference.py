@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the model from .h5 file
-model = load_model('/home/achintya-trn0175/Desktop/sign-language-detector-python/model.h5')
+model = load_model('model.h5')
 
 cap = cv2.VideoCapture(0)
 
